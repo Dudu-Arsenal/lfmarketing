@@ -1,4 +1,6 @@
 import React from "react";
+import ImageWork from '/src/assets/make-work1.jpg'
+import ImageMarketing from '/src/assets/make-marketing1.jpg'
 
 export default function OurServices() {
   return (
@@ -12,7 +14,7 @@ export default function OurServices() {
       <div className="outServices-content bg-dark-red-wine h-[70%] w-[85%] flex items-center rounded-2xl p-[20px]">
         <div className="left-side w-[100%] h-[100%] rounded mx-[10px] flex overflow-hidden">
           <div className="img-text relative w-[100%] flex items-start justify-center">
-            <img src="/src/assets/make-work1.jpg" alt="" className="desc-img" />
+            <img src={ImageWork} className="desc-img" />
             <p className="desc-text absolute bottom-0 bg-opacity-75 bg-text-red h-[25%] w-[100%] flex items-center justify-center font-[400] text-[130%] text-white-gray text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repellendus amet ab quae nemo atque, hic debitis odit.
@@ -21,11 +23,7 @@ export default function OurServices() {
         </div>
         <div className="right-side w-[100%] h-[100%] rounded mx-[10px] flex overflow-hidden">
           <div className="img-text relative w-[100%] flex items-start justify-center">
-            <img
-              src="/src/assets/make-marketing1.jpg"
-              alt=""
-              className="desc-img w-[100%]"
-            />
+            <img src={ImageMarketing} className="desc-img w-[100%]"/>
             <p className="desc-text absolute bottom-0 bg-opacity-75 bg-text-red h-[25%] w-[100%] flex items-center justify-center font-[400] text-[130%] text-white-gray text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
               nesciunt in ut incidunt obcaecati, odit veritatis.
