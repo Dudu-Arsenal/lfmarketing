@@ -8,8 +8,8 @@ export default function Header() {
         <div id="headerTop" className='header-main min-h-[7vh] h-max w-[100%] bg-white-gray flex justify-center'>
             <div className="header-content w-[95%] flex justify-around text-[110%]">
                 <div className="header-logo flex h-[100%] items-center">
-                    <HiPhotograph />
-                    <span>LF Marketing</span>
+                    <HiPhotograph className='text-[250%] text-dark-red-wine'/>
+                    <span className='font-[600] text-[120%]'>LF Marketing</span>
                 </div>
                 <div className="header-links flex h-[100%] w-[40%] items-center justify-evenly">
                     <Link to='ourServices' smooth={true} duration={400}>
