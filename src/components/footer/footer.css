@@ -1,0 +1,31 @@
+.footer-links span{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-links span:hover{
+    color: #851a1a;
+}
+
+@media (max-width: 900px){
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+    .footer-links{
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 580px){
+    .footer-links{
+        flex-direction: column;
+        width: 80%;
+    }
+    .copyright{
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
-import { HiPhotograph } from 'react-icons/hi'
 import './header.css'
+import { HiPhotograph } from 'react-icons/hi'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {

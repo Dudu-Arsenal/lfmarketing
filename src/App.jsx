@@ -5,6 +5,7 @@ import ExpandYourBusiness from './components/expandYourBusiness/expandYourBusine
 import Feedbacks from './components/feedbacks/feedbacks'
 import OurServices from './components/ourServices/ourServices'
 import SetaUp from './components/setaUp/setaUp'
+import Footer from './components/footer/footer'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <ExpandYourBusiness /> 
       <OurServices />
       <Feedbacks />
+      <Footer />
       <SetaUp />
     </>
   )

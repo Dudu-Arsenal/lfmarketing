@@ -50,3 +50,46 @@
 .btn-ourServices:hover{
     background-color: rgb(255, 85, 85);
 }
+
+@media (max-width: 900px) {
+    .ourServices-main{
+        height: max-content !important;
+    }
+    .ourServices-content{
+        width: 90% !important;
+    }
+    .ourservices-title{
+        width: 80% !important;
+    }
+    .imgs-container{
+        flex-direction: column;
+        width: 90% !important;
+    }
+    .left-side, .right-side{
+        margin: 10px 0;
+        width: 70% !important;
+    }
+    .desc-text{
+        font-size: 100% !important;
+    }
+}
+@media (max-width: 580px){
+    .ourservices-title{
+        font-size: 130% !important;
+        text-align: center;
+    }
+    .ourServices-content{
+        padding: 10px 0 !important;
+    }
+    .imgs-container{
+        min-width: 320px !important;
+    }
+    .desc-text{
+        height: max-content !important;
+        font-size: 80% !important;
+    }
+    .left-side, .right-side{
+        margin: 10px 0;
+        width: 80% !important;
+    }
+}

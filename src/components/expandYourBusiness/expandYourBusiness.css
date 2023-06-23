@@ -26,3 +26,56 @@
 .custom-shape-divider-bottom-1687493914 .shape-fill {
     fill: #851a1a21;
 }
+
+@media (max-width: 900px){
+    .expand-main{
+        min-height: max-content !important;
+    }
+    .expand-content{
+        justify-content: center;
+        min-height: max-content;
+        max-height: 90vh;
+    }
+    .left-side-top{
+        z-index: 1;
+        width: 80% !important;
+        height: 100% !important;
+        max-height: 90vh;
+        padding: 10px !important;
+    }
+    .right-side-top{
+        position: absolute;
+        z-index: 0;
+        opacity: 0.1;
+    }
+}
+@media (max-width: 580px){
+    .expand-content{
+        max-height: max-content !important;
+    }
+    .left-side-top, .right-side-top{
+        height: max-content !important;
+        max-height: max-content !important;
+    }
+    .left-side-top{
+        width: 90% !important;
+    }
+    .expand-content{
+        height: max-content !important;
+        margin: 15px 0;
+        width: 90% !important;
+    }
+    .expand-main{
+        height: max-content !important;
+    }
+    .left-side-top h1{
+        font-size: 140% !important;
+    }
+    .text-about-expand{
+        font-size: 110% !important;
+        margin: 15px 0;
+    }
+    .button-saiba-mais button{
+        padding: 5px 15px;
+    }
+}

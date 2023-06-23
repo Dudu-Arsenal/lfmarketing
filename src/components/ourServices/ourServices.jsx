@@ -18,31 +18,31 @@ export default function OurServices() {
         </svg>
       </div>
       {/* ------------------------------ SHAPE DIVIDER --------------------- */}
-      <h1 className="w-[45%] flex items-center justify-center text-[200%] font-[500] text-white-gray mb-[20px] border-b-4 border-dark-red-wine leading-tight rounded">
+      <h1 className="ourservices-title w-[45%] flex items-center justify-center text-[200%] font-[500] text-white-gray mb-[20px] border-b-4 border-dark-red-wine leading-tight rounded">
         What is Lorem? I dont know, and you?
       </h1>
-      <div className="ourServices-content bg-dark-red-wine h-[70%] w-[85%] flex flex-col items-center justify-around rounded-2xl p-[20px]">
-        <div className="imgs-container flex items-center justify-evenly">
+      <div className="ourServices-content bg-dark-red-wine h-max w-max flex flex-col items-center justify-around rounded-2xl p-[20px]">
+        <div className="imgs-container flex items-center justify-evenly w-max h-max">
           <div className="left-side w-[45%] h-[100%] rounded mx-[10px] flex items-center overflow-hidden">
-            <div className="img-text relative w-[600px] h-max flex items-center justify-center">
-              <img src={ImageWork} className="desc-img" />
-              <p className="desc-text absolute bottom-0 bg-opacity-75 bg-text-red h-[25%] w-[100%] flex items-center justify-center font-[400] text-[130%] text-white-gray text-center">
+            <div className="img-text relative w-[500px] h-max flex items-center justify-center">
+              <img src={ImageWork} className="desc-img w-[100%]" />
+              <p className="desc-text absolute bottom-0 bg-opacity-75 bg-text-red h-[25%] w-[100%] flex items-center justify-center font-[400] text-[120%] text-white-gray text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus amet ab quae nemo atque, hic debitis odit.
               </p>
             </div>
           </div>
           <div className="right-side w-[45%] h-[100%] rounded mx-[10px] flex items-center overflow-hidden">
-            <div className="img-text relative w-[600px] h-max flex items-center justify-center">
-              <img src={ImageMarketing} className="desc-img" />
-              <p className="desc-text absolute bottom-0 bg-opacity-75 bg-text-red h-[25%] w-[100%] flex items-center justify-center font-[400] text-[130%] text-white-gray text-center">
+            <div className="img-text relative w-[550px] h-max flex items-center justify-center">
+              <img src={ImageMarketing} className="desc-img w-[100%]" />
+              <p className="desc-text absolute bottom-0 bg-opacity-75 bg-text-red h-[25%] w-[100%] flex items-center justify-center font-[400] text-[120%] text-white-gray text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
                 nesciunt in ut incidunt obcaecati, odit veritatis.
               </p>
             </div>
           </div>
         </div>
-        <button className="btn-ourServices bg-white-gray px-[23px] py-[7px] text-text-red font-[400] rounded text-[120%] cursor-pointer w-[200px]">
+        <button className="btn-ourServices bg-white-gray px-[23px] py-[7px] text-text-red font-[400] rounded text-[120%] cursor-pointer w-[200px] mt-[20px]">
           Saiba Mais
         </button>
       </div>
