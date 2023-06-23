@@ -12,14 +12,14 @@ export default function Header() {
                     <span className='font-[600] text-[120%]'>LF Marketing</span>
                 </div>
                 <div className="header-links flex h-[100%] w-[40%] items-center justify-evenly">
-                    <Link to='ourServices' smooth={true} duration={400}>
-                        <span className='cursor-pointer'>Nossos Serviços</span>
+                    <Link to='ourServices' smooth={true} duration={400} className='cursor-pointer'>
+                        <span className='h-[100%] flex items-center'>Nossos Serviços</span>
                     </Link>
-                    <Link to='feedbacks' smooth={true} duration={400}>
-                        <span className='cursor-pointer'>Clientes</span>
+                    <Link to='feedbacks' smooth={true} duration={400} className='cursor-pointer'>
+                        <span className='h-[100%] flex items-center'>Clientes</span>
                     </Link>
-                    <Link to='contactUs' smooth={true} duration={400}>
-                        <span className='cursor-pointer'>Contato</span>
+                    <Link to='contactUs' smooth={true} duration={400} className='cursor-pointer'>
+                        <span className='h-[100%] flex items-center'>Contato</span>
                     </Link>
                 </div>
                 <div className="login-register h-[100%] flex items-center">

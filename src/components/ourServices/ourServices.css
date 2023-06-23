@@ -1,0 +1,52 @@
+#ourServices h1, .ourServices-content{
+    z-index: 1;
+}
+
+.custom-shape-divider-top-1687493702 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0;
+}
+
+.custom-shape-divider-top-1687493702 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 315px;
+}
+
+.custom-shape-divider-top-1687493702 .shape-fill {
+    fill: hsla(0, 100%, 68%, 0.411);
+}
+
+/* ------------------------------------------------------------ */
+
+.custom-shape-divider-bottom-1687493827 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+
+.custom-shape-divider-bottom-1687493827 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 315px;
+}
+
+.custom-shape-divider-bottom-1687493827 .shape-fill {
+    fill: hsla(0, 100%, 68%, 0.411);
+}
+
+.btn-ourServices:hover{
+    background-color: rgb(255, 85, 85);
+}
