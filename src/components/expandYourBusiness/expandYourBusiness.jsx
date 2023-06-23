@@ -1,5 +1,6 @@
 import React from 'react';
 import './expandYourBusiness.css';
+import GrowGraphic from '/src/assets/grow-graphic-red.png';
 
 export default function ExpandYourBusiness() {
     return ( 
@@ -13,7 +14,7 @@ export default function ExpandYourBusiness() {
                     </div>
                 </div>
                 <div className="right-side w-[50%] h-[80%] flex items-center justify-center">
-                    <img src="./src/assets/grow-graphic-red.png" alt="Gráfico Subindo" className='w-[75%]'/>
+                    <img src={GrowGraphic} alt="Gráfico Subindo" className='w-[75%]'/>
                 </div>
             </div>
         </div>
