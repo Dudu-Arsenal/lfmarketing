@@ -1,0 +1,10 @@
+.header-links a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.header-links a:hover{
+    background-color: #db595942;
+}

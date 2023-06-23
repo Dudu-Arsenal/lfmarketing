@@ -7,10 +7,11 @@ export default {
   theme: {
     colors: {
       'red-wine': '#be2528',
+      'dark-red-wine': '#851a1a',
       'white-gray': '#F5F5F5',
       'red-button': '',
-      'text-gray': '',
-      'text-bold': ''
+      'text-red': '#390b0b',
+      'text-red-bold': '#130404'
     },
     extend: {},
   },
